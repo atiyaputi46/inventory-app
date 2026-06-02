@@ -50,5 +50,6 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Simpan</button>
+    <a href="{{ route('categories.index') }}" class="btn btn-secondary ms-2">Kembali</a>
 </form>
 @endsection

@@ -24,9 +24,6 @@
         @yield('content')
     </div>
 
-    <footer class="bg-dark text-white text-center py-2 fixed-bottom">
-        © 2026 Inventory App - Manajemen Informatika PNP
-    </footer>
 
 </body>
 </html>
