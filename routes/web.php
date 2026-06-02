@@ -5,8 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
 
 Route::get('/create', [ProductController::class, 'create']);
 Route::post('/create', [ProductController::class, 'store']);
